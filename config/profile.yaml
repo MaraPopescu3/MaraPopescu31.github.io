@@ -12,24 +12,18 @@
 # =====================================================
 
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
-  location: null
-  profileImage: "https://github.com/pm25.png"
+  name: "Mara Popescu"
+  headline: "Student @ Bocconi University"
+  email: "marapopsq@gmail.com"
+  location: Zurich, Switzerland
 
   links:
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
+      url: "https://www.linkedin.com/in/mara-popescu1"
       icon:
         name: "FaLinkedin"
         package: "react-icons/fa6"
 
-    - name: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=[your-id]"
-      icon:
-        name: "FaGoogleScholar"
-        package: "react-icons/fa6"
 
     - name: "Résumé"
       url: "/pdf/sample-resume.pdf"
@@ -38,16 +32,11 @@ profile:
         package: "react-icons/fa6"
 
     - name: "Github"
-      url: "https://github.com/[your-github]"
+      url: "https://github.com/MaraPopescu3"
       icon:
         name: "FaGithub"
         package: "react-icons/fa6"
 
-    - name: "Facebook"
-      url: "https://www.facebook.com/[your-facebook]"
-      icon:
-        name: "FaSquareFacebook"
-        package: "react-icons/fa6"
 
   # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
@@ -61,19 +50,15 @@ profile:
 # # =====================================================
 
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
+  - degree: "Msc. in Quantitative Finance and Risk Management"
+    school: "Bocconi Univeristy"
+    years: "2024 - 2025"
     logo: "/images/ntu_logo.svg"
 
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
+  - degree: "Bsc. in Economics and Business Economics"
+    school: "Erasmus University"
+    years: "2021 - 2024"
     logo: "/images/nccu_logo.svg"
 
 # # =====================================================
@@ -81,87 +66,28 @@ education:
 # # =====================================================
 
 workExperience:
-  - title: "[Job Title]"
-    company: "[Company Name]"
-    years: "20XX - Present"
+  - title: "Quant Risk Modellin Intern"
+    company: "UBS"
+    years: "Jul. 2025 - Present"
     logo: "/images/nvidia_logo.webp"
 
-  - title: "Software Engineering Intern"
-    company: "Google"
-    years: "Jul 2022 - Sep 2022"
+  - title: "Analyst Intern"
+    company: "Schwarz Group"
+    years: "Jul 2024 - Sep 2024"
     logo: "/images/google_logo.svg"
 
-  - title: "Research Assistant"
-    company: "University of Illinois Urbana-Champaign"
-    years: "Jul 2019 - Sep 2019"
+  - title: "Teaching Assistant"
+    company: "Erasmus School of Economics"
+    years: "Aug. 2023 - Aug. 2024"
     logo: "/images/uiuc_logo.png"
-
-# # =====================================================
-# # 🎤 Presentations / Talks Section
-# # =====================================================
-
-talks:
-  - category: "Misc"
-    title: "[Your Talk Title Here]"
-    organization: "[Your Talk Location Here]"
-    date: "[Month Day, Year]"
-    link: "https://example.com/your-talk-link"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Workshop"
-    title: "Deep Learning with Keras"
-    organization: "University of Illinois Urbana-Champaign (UIUC)"
-    date: "Sep 4, 2019"
-    link: null
-    image: "https://pm25.github.io/images/uiuc-workshop.webp"
-
-  - category: "Workshop"
-    title: "Practical Guide to PyTorch"
-    organization: "ABC University"
-    date: "Dec 5, 2022"
-    link: "https://example.com/workshop-talk"
-    image: null
-
-# # =====================================================
-# # 🛡️ Professional Services
-# # =====================================================
-
-services:
-  - category: "Misc"
-    role: "[Role]"
-    organization: "[Organization]"
-    date: "[Year]"
-    link: "https://example.com/workshop-talk"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Research"
-    role: "Reviewer"
-    organization: "TPAMI 2024, NeurIPS 2025"
-    date: "2024-2025"
-    link: null
-    image: null
-
-  - category: "Research"
-    role: "Program Committee Member"
-    organization: "CVPR 2022"
-    date: "2022"
-    link: null
-    image: null
-
-  - category: "Teaching"
-    role: "Teaching Assistant"
-    organization: "National Taiwan University - Data Structures & Algorithms"
-    date: "2021"
-    link: null
-    image: null
-
+    
 # # =====================================================
 # # 🛠️ Skills Section
 # # =====================================================
 
 skills:
   Programming:
-    - name: "[Name]"
+    - name: "Stata"
       logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
       proficiency: "[Proficiency]"
       description: "[Description]"
@@ -171,45 +97,8 @@ skills:
       proficiency: Experienced
       description: null
 
-    - name: "JavaScript"
+    - name: "Refinitiv Workspace"
       logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-      proficiency: Fluent
-      description: null
-
-  Web:
-    - name: "React"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
-      proficiency: Advanced
-      description: null
-
-    - name: "Typescript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "TailwindCSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Next.js"
-      logo: "https://logo.svgcdn.com/devicon/nextjs-original.png"
-      proficiency: Fluent
-      description: null
-
-  Machine Learning:
-    - name: "PyTorch"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-      proficiency: Experienced
-      description: null
-
-    - name: "TensorFlow"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Keras"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"
       proficiency: Fluent
       description: null
 
@@ -228,9 +117,15 @@ skills:
     - name: "English"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
       proficiency: Fluent
-      description: "Professional working proficiency."
+      description: "C1"
 
-    - name: "Taiwanese Hokkien"
+    - name: "Romanian"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
       proficiency: Native
       description: "Native fluency."
+      
+   - name: "German"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
+      proficiency: Intermediate
+      description: "B1"
+
